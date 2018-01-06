@@ -12,7 +12,7 @@ exports.run = async (client, message, args) => { // eslint-disable-line no-unuse
     if (Object.keys(players).length > 0) {
       for (let key in players) {
         const name = players[key].name;
-        output += `\u200b\n\n= ${name} = \n`;
+        output += `\u200b\n= ${name} = \n`;
         let decks = players[key].decks;
         for (let i = 0; i < decks.length; i++) {
           const deck = decks[i];
